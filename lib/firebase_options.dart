@@ -47,31 +47,32 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBIXxQgUPYDU2srK_UpgjiTATON5rrdMd0',
-    appId: '1:132381301913:web:f0d0a643bc90bed91eec08',
-    messagingSenderId: '132381301913',
-    projectId: 'flutterfire-samples',
-    authDomain: 'flutterfire-samples.firebaseapp.com',
-    storageBucket: 'flutterfire-samples.appspot.com',
-    measurementId: 'G-ZK5194H8VH',
+      apiKey: "AIzaSyCZxRud84nFLDID14T0-0HE16s-yudEQss",
+      authDomain: "charge-ride.firebaseapp.com",
+      databaseURL: "https://charge-ride-default-rtdb.firebaseio.com",
+      projectId: "charge-ride",
+      storageBucket: "charge-ride.appspot.com",
+      messagingSenderId: "409578109650",
+      appId: "1:409578109650:web:a2c053368eed4d0dafcb0b",
+      measurementId: "G-M26DPH42L5"
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCBpOCTJvcgHSO1-XDhmGNJ-paLHAAratM',
-    appId: '1:132381301913:android:2897b20e4406c6ad1eec08',
-    messagingSenderId: '132381301913',
-    projectId: 'flutterfire-samples',
-    storageBucket: 'flutterfire-samples.appspot.com',
+    apiKey: 'AIzaSyCZxRud84nFLDID14T0-0HE16s-yudEQss',
+    appId: '1:409578109650:android:93356456eb584790afcb0b',
+    messagingSenderId: '409578109650',
+    projectId: 'charge-ride',
+    storageBucket: 'charge-ride.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBe_fPPDQTnEfq7ZFKa2kYAdDKkmFIsQI8',
-    appId: '1:132381301913:ios:7cf4a8a242e6a1ca1eec08',
-    messagingSenderId: '132381301913',
-    projectId: 'flutterfire-samples',
-    storageBucket: 'flutterfire-samples.appspot.com',
-    androidClientId: '132381301913-5o1p8r5cr7hbmet7bjtltnk3hiv2eife.apps.googleusercontent.com',
-    iosClientId: '132381301913-6ho0d2nv7b9q73ibmtsjq3es09leqbt9.apps.googleusercontent.com',
-    iosBundleId: 'com.souvikbiswas.flutterfireExamples',
+    apiKey: 'AIzaSyDZ8CIHpQyX7F3gJH_9ISofTLdXz6Ds7QQ',
+    appId: '1:409578109650:ios:2380e37a9e226affafcb0b',
+    messagingSenderId: '409578109650',
+    projectId: 'charge-ride',
+    storageBucket: 'charge-ride.appspot.com',
+    androidClientId: '409578109650-kshqkptb3qheoaro8qqmlvias60ojttb.apps.googleusercontent.com',
+    iosClientId: '409578109650-uu3rftco28oc052234vh7a5qpn0jovl2.apps.googleusercontent.com',
+    iosBundleId: 'com.test.chargeride',
   );
 }

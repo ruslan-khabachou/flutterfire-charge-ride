@@ -33,25 +33,20 @@
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js');
-      });
-    }
-  </script>
+  <script src="flutter_bootstrap.js" async></script>
   <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
   <!-- Firebase Configuration -->
   <script>
     var firebaseConfig = {
-      apiKey: "AIzaSyBIXxQgUPYDU2srK_UpgjiTATON5rrdMd0",
-      authDomain: "flutterfire-samples.firebaseapp.com",
-      projectId: "flutterfire-samples",
-      storageBucket: "flutterfire-samples.appspot.com",
-      messagingSenderId: "132381301913",
-      appId: "1:132381301913:web:f0d0a643bc90bed91eec08",
-      measurementId: "G-ZK5194H8VH"
+      apiKey: "AIzaSyCZxRud84nFLDID14T0-0HE16s-yudEQss",
+      authDomain: "charge-ride.firebaseapp.com",
+      databaseURL: "https://charge-ride-default-rtdb.firebaseio.com",
+      projectId: "charge-ride",
+      storageBucket: "charge-ride.appspot.com",
+      messagingSenderId: "409578109650",
+      appId: "1:409578109650:web:a2c053368eed4d0dafcb0b",
+      measurementId: "G-M26DPH42L5"
     };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);

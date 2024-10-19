@@ -1,7 +1,6 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.souvikbiswas.flutterfire_samples">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
    <application
-        android:label="flutterfire_samples"
+        android:label="chargeride"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
